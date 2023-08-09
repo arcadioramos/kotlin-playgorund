@@ -2,7 +2,7 @@ package basics
 
 fun main(){
     val name : String = "Arcadio"
-    println(name);
+    println(name)
 
     //name = "Arcadio2"
 
