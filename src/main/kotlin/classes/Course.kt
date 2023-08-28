@@ -1,9 +1,12 @@
 package classes
 
+import dataset.CourseCategory
+
 data class Course(
     val id  : Int,
     val name : String,
-    val author : String
+    val author : String,
+    var courseCategory: CourseCategory = CourseCategory.DEVELOPMENT
 )
 
 fun main() {
